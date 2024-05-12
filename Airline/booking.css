@@ -1,0 +1,165 @@
+*{
+    font-family: "poppins", sans-serif;
+    font-weight: 750;
+}
+
+body{
+    background-color:rgba(135, 207, 235, 0.632);
+}
+
+.navbar{
+    border-radius: 5px;
+    width: 100%;
+    height: 4vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(42, 37, 37);
+    border: 1px solid #bbb;
+}
+
+.navbar .content{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    padding: 0vh 1vw;
+    font-size: 1.2vmax;
+}
+
+.navbar .logo{
+    color: white;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    padding: 0vh 1.5vw;
+}
+
+.navbar .content button{
+    width: 90.1px;
+    height: 40.1px;
+    background-color: #ff735c;
+    color: cyan;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.navbar .content a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+.navbar .logo h1{
+    font-weight: bolder;
+    font-size: 2.5vmax;
+}
+
+.navbar .content a:hover{
+    color: whitesmoke;
+}
+
+.navbar .content button:hover{
+    background-color: burlywood;
+}
+
+.prev{
+    background-color: #fff;
+    width: 80%;
+    height: 5vmax;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.prev input{
+    height: 6vmin;
+    width: 14vmax;
+    font-size: 1.5vmax;
+    font-family: "poppins", sans-serif;
+    font-weight:500;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+}
+
+.prev button{
+    height: 6vmin;
+    width: 14vmax;
+    font-size: 1.5vmax;
+    font-family: "poppins", sans-serif;
+    font-weight:bolder;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+    background-color: #001b94;
+    color: whitesmoke;
+    padding: 1vmin 1vmin;
+}
+
+.prev button:hover{
+    background-color: #0056b3;
+}
+
+.plans{
+    width: 100%;
+    height: 40vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.plans .box{
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2vw;
+}
+
+.plans  .box:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.box input{
+    width: 3vmin;
+    height: 3vmin;
+}
+
+.box input:hover{
+    opacity: 100%;
+    background-color: #000;
+}
+
+.btn button{
+    height: 6vmin;
+    width: 14vmax;
+    font-size: 1.5vmax;
+    font-family: "poppins", sans-serif;
+    font-weight:bolder;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 66, 48);
+    background-color: #001b94;
+    color: whitesmoke;
+    padding: 1vmin 1vmin;
+}
+
+.btn button:hover{
+    background-color: #0056b3;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(42, 37, 37);
+    color: white;
+}
+
+footer p{
+    padding: 0vmax 2vmax;
+}
